@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { HistoryList } from "@/components/HistoryList";
+import { RedlineLogo } from "@/components/RedlineLogo";
 import { SearchBar } from "@/components/SearchBar";
 import { SiteHeader } from "@/components/SiteHeader";
 import { AGENTS } from "@/lib/agents";
@@ -11,6 +12,9 @@ export default function Home() {
       <SiteHeader />
       <main className="grid-noise relative flex-1">
         <div className="mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-16 sm:py-24">
+          <div className="mb-4 flex items-center gap-2">
+            <RedlineLogo size={48} />
+          </div>
           <span className="mb-4 rounded-full border border-border bg-surface px-3 py-1 font-mono text-xs text-accent">
             OSINT Research · multi-sumber + AI
           </span>
