@@ -20,13 +20,9 @@ turns the raw findings into a coherent intelligence report with DeepSeek.
 
 ## Screenshots
 
-> **Live Demo:** _coming soon_
-
 | Landing | Results & Agents | AI Report |
 | --- | --- | --- |
 | ![Landing page](assets/screenshot-home.png) | ![Search results](assets/screenshot-results.png) | ![AI report](assets/screenshot-report.png) |
-
-_Add your screenshots to `assets/` (or `public/`) and update the paths above._
 
 ---
 
